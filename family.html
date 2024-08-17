@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>family</title>
+    <link rel="stylesheet" href="css/family.css">
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="header__back" id="back__div">
+            <i class="fa-solid fa-arrow-left header__img__back"></i>
+            <span class="header__span__back">back</span>
+        </div>
+    </header>
+    <main>
+        <img class="home__logo__img" src="images/family/familyMain.png" alt="mom">
+        <h1 class="main__text">family</h1>
+        <span class="main__text">항상 화목한 우리 가족의 추억</span>
+        <ul class="memories">
+            <li class="memory">
+                <img class="memory__img" src="images/family/family1-1.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family1-2.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family1-3.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family1-4.jpg" alt="">
+            </li>
+        </ul>
+        <ul class="memories">
+            <li class="memory">
+                <img class="memory__img" src="images/family/family2-1.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family2-2.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family2-3.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/family/family2-4.jpg" alt="">
+            </li>
+        </ul>
+    </main>
+    <script>
+        const back = document.getElementById("back__div");
+        back.addEventListener("click", () => {
+            history.back();
+        })
+    </script>
+</body>
+</html>

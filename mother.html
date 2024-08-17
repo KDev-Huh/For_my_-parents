@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mother</title>
+    <link rel="stylesheet" href="css/mother.css">
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="header__back" id="back__div">
+            <i class="fa-solid fa-arrow-left header__img__back"></i>
+            <span class="header__span__back">back</span>
+        </div>
+    </header>
+    <main>
+        <img class="home__logo__img" src="images/mom/Mother.png" alt="mom">
+        <h1 class="main__text">mother</h1>
+        <span class="main__text">항상 사랑하는 우리 엄마!!</span>
+        <ul class="memories">
+            <li class="memory">
+                <img class="memory__img" src="images/mom/Mom1.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/mom/Mom2.jpg" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/mom/Mom3.heic" alt="">
+            </li>
+            <li class="memory">
+                <img class="memory__img" src="images/mom/Mom4.jpg" alt="">
+            </li>
+        </ul>
+    </main>
+    <script>
+        const back = document.getElementById("back__div");
+        back.addEventListener("click", () => {
+            history.back();
+        })
+    </script>
+</body>
+</html>
